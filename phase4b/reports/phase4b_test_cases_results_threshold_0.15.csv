@@ -1,0 +1,31 @@
+case_id,Unnamed: 0,CMRN,Nationality,Gender,Age,Hospital admission timing,Weight on admission,Height,Type of stroke (possibly system variable),ECG at admission,Family History of Stroke ,Personal previous history of stoke (YES/NO),Personal previous history of Transient Ischemic Attack (YES/NO),known case of atrial fibrillation (YES/NO),Known case of Hypertension (YES/NO),known case of diabetes (YES/NO),known case of coronary heart disease (YES/NO),Troponin level at admission ,oral contraceptive use in female(YES/NO),"Are they on warfarin, or heparin before admission (YES/NO)",HbA1c (last one before admission),Blood glucose at admission ,INR ,Total cholesterol (last one before admission),Cholesterol level at admission ,Fibrinolytic therapy timing,Timing of CT scan ,IV fibrinolytic therapy is given (YES/NO), Abciximab administered with IV tpa (YES/NO),Aspirin administered (YES/NO),Mechanical thrombectomy done (YES/NO),Intracranial bleeding within 24hrs (YES/NO),cardioembolic stroke (YES/NO),Cervical artery dissection (YES/NO),Thrombophilia (YES/NO),Vasculitis (YES/NO),Large-artery atherosclerosis (YES/NO),Small-vessel disease (YES/NO),Undetermined cause of stroke (YES/NO),BMI,BP_sys,BP_dia,risk_prob,predicted_label
+Case 1,,,,Female,25,,,,,,,,,NO,NO,NO,,0.01,,,5.2,95.0,1.0,,,,,,,,,,,,,,,,,22.0,110,70,0.11703812138054402,0
+Case 2,,,,Male,50,,,,,,,,,NO,YES,NO,,,,,5.8,105.0,1.1,,,,,,,,,,,,,,,,,27.5,145,90,0.15568366499861577,1
+Case 3,,,,Male,72,,,,,,,,,YES,YES,YES,,0.08,,,8.9,210.0,1.2,,,,,,,,,,,,,,,,,29.0,150,92,0.15715481849540922,1
+Case 4,,,,Female,68,,,,,,,,,,YES,NO,,,YES,,6.0,115.0,,,,,,,,,,,,,,,,,,24.0,135,85,0.12358623180078974,0
+Case 5,,,,Male,60,,,,,,,,,,YES,NO,,,,,,,,260.0,240.0,,,,,,,,,,,,,,,34.0,140,88,0.09581175538041986,0
+Case 6,,,,Female,45,,,,,,,,,,NO,NO,,,,,,,,,,,,,,,,,,,,,,,,17.5,95,60,0.11215403673768613,0
+Case 7,,,,Male,55,,,,,,,,,,,,,,,YES,5.6,100.0,3.0,,,,,,,,,,,,,,,,,26.0,130,82,0.20260911354700686,1
+Case 8,,,,Male,65,,,,,,,YES,YES,,YES,,,,,,,,,,,,,,,,,,,,,,,,,28.0,145,90,0.0948974295019089,0
+Case 9,,,,Female,70,,,,,,,,,,,,,,,,,,,,,Within 3h,Early,YES,,,YES,,,,,,,,,25.0,150,93,0.08254110330611443,0
+Case 10,,,,Male,75,,,,,,,,,,YES,,YES,0.25,,,,,,,,,,,,,,,,,,,,,,31.0,180,110,0.08994575214856709,0
+Case 11,,,,Male,80,,,,,,,,,YES,YES,,YES,0.12,,YES,,,2.7,,,,,,,,,,,,,,,,,29.5,160,95,0.13918377064065482,0
+Case 12,,,,Female,40,,,,,,,,,,,YES,,,,,11.2,300.0,,,,,,,,,,,,,,,,,,30.0,125,80,0.11218030786143529,0
+Case 13,,,,Male,65,,,,,,,YES,NO,,YES,,,,,,6.2,110.0,,,,,,,,,,,,,,,,,,26.0,130,82,0.13053789092509768,0
+Case 14,,,,Female,70,,,,,,,,,,,,,,,,,,,,,Within 3h,Early,YES,,,,,,,,,,,,27.0,155,92,0.08220622100095848,0
+Case 15,,,,Male,58,,,,,,,,,,YES,YES,,,,,9.0,220.0,,280.0,260.0,,,,,,,,,,,,,,,32.0,150,95,0.1038152383850539,0
+Case 16,,,,Female,62,,,,,,,,,,YES,,,,,YES,,,1.5,,,,,,,,,,,,,,,,,24.5,140,88,0.16931690105607208,1
+Case 17,,,,Male,55,,,,,,,,,,,,YES,0.3,,,,,,,,,,,,,,,,,,,,,,27.0,85,55,0.14775401122762816,0
+Case 18,,,,Female,30,,,,,,,,,NO,NO,NO,,,,,5.1,90.0,1.0,,,,,,,,,,,,,,,,,19.0,112,72,0.13643351639214116,0
+Case 19,,,,Male,68,,,,,,,,,YES,YES,,,,,,,,,,,,Late,,,,YES,,,,,,,,,28.0,160,98,0.09600080459566222,0
+Case 20,,,,Female,52,,,,,,,,,,,,,,YES,,,,,245.0,230.0,,,,,,,,,,,,,,,26.0,138,86,0.08512963656823258,0
+Case 21,,,,Female,35,,,,,,,,,,YES,YES,,,,,10.5,250.0,,,,,,,,,,,,,,,,,,40.0,160,100,0.0897416504929134,0
+Case 22,,,,Male,72,,,,,,,,,,,,YES,0.4,,,,,,,,,,,,,,,,,,,,,,24.0,120,78,0.1165957586149474,0
+Case 23,,,,Female,65,,,,,,,,,,YES,,,,,,,,,,,,Early,YES,,,,,,,,,,,,25.0,150,92,0.08864056405401072,0
+Case 24,,,,Male,55,,,,,,,,,,,YES,,,,,9.5,240.0,,300.0,280.0,,,,,,,,,,,,,,,33.0,145,90,0.10607868454839235,0
+Case 25,,,,Female,48,,,,,,,,,,,,,,YES,,,,1.0,,,,,,,,,,,,,,,,,22.0,115,75,0.09209287234103626,0
+Case 26,,,,Male,70,,,,,,,,,YES,,,,,,,,,,,,,,,,,YES,,,,,,,,,27.0,155,95,0.10199384212415308,0
+Case 27,,,,Female,59,,,,,,,,,,,,YES,0.35,,,,,,,,,,,,,,,,,,,,,,25.0,90,55,0.1499614777952227,0
+Case 28,,,,Male,62,,,,,,,,,,YES,,,,,YES,,,2.2,,,,,,,,,,,,,,,,,26.0,150,92,0.15418269659014383,1
+Case 29,,,,Male,45,,,,,,,,,NO,NO,NO,,,,,5.3,95.0,1.0,,,,,,,,,,,,,,,,,23.0,118,76,0.12238493128874539,0
+Case 30,,,,Male,80,,,,,,,,,YES,YES,YES,,,,,9.2,230.0,1.3,,,,,,,,,,,,,,,,,28.0,165,100,0.19218417886640762,1

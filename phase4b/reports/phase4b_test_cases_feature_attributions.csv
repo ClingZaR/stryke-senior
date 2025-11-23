@@ -1,0 +1,133 @@
+case_id,feature,original_value,baseline_value,delta_prob,abs_delta
+Low risk,Gender,Female,male,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,Age,25,43.0,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,known case of atrial fibrillation (YES/NO),NO,no,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,Known case of Hypertension (YES/NO),NO,no,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,known case of diabetes (YES/NO),NO,no,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,Troponin level at admission ,0.01,7.54,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,HbA1c (last one before admission),5.2,6.85,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,Blood glucose at admission ,95.0,7.4,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,INR ,1.0,0.96,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,BMI,22.0,26.397259343368173,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,BP_sys,110,153.5,1.3877787807814457e-17,1.3877787807814457e-17
+Low risk,BP_dia,70,91.5,1.3877787807814457e-17,1.3877787807814457e-17
+Middle-aged hypertensive,Gender,Male,male,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,Age,50,43.0,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,known case of atrial fibrillation (YES/NO),NO,no,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,Known case of Hypertension (YES/NO),YES,no,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,known case of diabetes (YES/NO),NO,no,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,HbA1c (last one before admission),5.8,6.85,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,Blood glucose at admission ,105.0,7.4,0.0,0.0
+Middle-aged hypertensive,INR ,1.1,0.96,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,BMI,27.5,26.397259343368173,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,BP_sys,145,153.5,1.1102230246251565e-16,1.1102230246251565e-16
+Middle-aged hypertensive,BP_dia,90,91.5,1.1102230246251565e-16,1.1102230246251565e-16
+Old,Gender,Male,male,1.1102230246251565e-16,1.1102230246251565e-16
+Old,Age,72,43.0,1.1102230246251565e-16,1.1102230246251565e-16
+Old,known case of atrial fibrillation (YES/NO),YES,no,1.1102230246251565e-16,1.1102230246251565e-16
+Old,Known case of Hypertension (YES/NO),YES,no,1.1102230246251565e-16,1.1102230246251565e-16
+Old,known case of diabetes (YES/NO),YES,no,1.1102230246251565e-16,1.1102230246251565e-16
+Old,Troponin level at admission ,0.08,7.54,1.1102230246251565e-16,1.1102230246251565e-16
+Old,HbA1c (last one before admission),8.9,6.85,1.1102230246251565e-16,1.1102230246251565e-16
+Old,Blood glucose at admission ,210.0,7.4,1.1102230246251565e-16,1.1102230246251565e-16
+Old,INR ,1.2,0.96,8.326672684688674e-17,8.326672684688674e-17
+Old,BMI,29.0,26.397259343368173,1.1102230246251565e-16,1.1102230246251565e-16
+Old,BP_sys,150,153.5,1.1102230246251565e-16,1.1102230246251565e-16
+Old,BP_dia,92,91.5,1.1102230246251565e-16,1.1102230246251565e-16
+Old female,Gender,Female,male,-8.326672684688674e-17,8.326672684688674e-17
+Old female,Age,68,43.0,2.7755575615628914e-17,2.7755575615628914e-17
+Old female,Known case of Hypertension (YES/NO),YES,no,2.7755575615628914e-17,2.7755575615628914e-17
+Old female,known case of diabetes (YES/NO),NO,no,0.0,0.0
+Old female,oral contraceptive use in female(YES/NO),YES,not applicable,2.7755575615628914e-17,2.7755575615628914e-17
+Old female,HbA1c (last one before admission),6.0,6.85,2.7755575615628914e-17,2.7755575615628914e-17
+Old female,Blood glucose at admission ,115.0,7.4,2.7755575615628914e-17,2.7755575615628914e-17
+Old female,BMI,24.0,26.397259343368173,2.7755575615628914e-17,2.7755575615628914e-17
+Old female,BP_sys,135,153.5,2.7755575615628914e-17,2.7755575615628914e-17
+Old female,BP_dia,85,91.5,0.0,0.0
+High cholesterol,Gender,Male,male,0.0,0.0
+High cholesterol,Age,60,43.0,0.0,0.0
+High cholesterol,Known case of Hypertension (YES/NO),YES,no,0.0,0.0
+High cholesterol,known case of diabetes (YES/NO),NO,no,0.0,0.0
+High cholesterol,Total cholesterol (last one before admission),260.0,4.42,0.0,0.0
+High cholesterol,Cholesterol level at admission ,240.0,5.0,0.0,0.0
+High cholesterol,BMI,34.0,26.397259343368173,0.0,0.0
+High cholesterol,BP_sys,140,153.5,0.0,0.0
+High cholesterol,BP_dia,88,91.5,2.7755575615628914e-17,2.7755575615628914e-17
+Underweight,Gender,Female,male,0.0,0.0
+Underweight,Age,45,43.0,2.7755575615628914e-17,2.7755575615628914e-17
+Underweight,Known case of Hypertension (YES/NO),NO,no,0.0,0.0
+Underweight,known case of diabetes (YES/NO),NO,no,0.0,0.0
+Underweight,BMI,17.5,26.397259343368173,0.0,0.0
+Underweight,BP_sys,95,153.5,0.0,0.0
+Underweight,BP_dia,60,91.5,0.0,0.0
+Anticoagulated,Gender,Male,male,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,Age,55,43.0,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,"Are they on warfarin, or heparin before admission (YES/NO)",YES,no,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,HbA1c (last one before admission),5.6,6.85,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,Blood glucose at admission ,100.0,7.4,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,INR ,3.0,0.96,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,BMI,26.0,26.397259343368173,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,BP_sys,130,153.5,2.7755575615628914e-17,2.7755575615628914e-17
+Anticoagulated,BP_dia,82,91.5,2.7755575615628914e-17,2.7755575615628914e-17
+Young diabetic,Gender,Male,male,5.551115123125783e-17,5.551115123125783e-17
+Young diabetic,Age,65,43.0,5.551115123125783e-17,5.551115123125783e-17
+Young diabetic,Personal previous history of stoke (YES/NO),YES,no,5.551115123125783e-17,5.551115123125783e-17
+Young diabetic,Personal previous history of Transient Ischemic Attack (YES/NO),YES,no,5.551115123125783e-17,5.551115123125783e-17
+Young diabetic,Known case of Hypertension (YES/NO),YES,no,5.551115123125783e-17,5.551115123125783e-17
+Young diabetic,BMI,28.0,26.397259343368173,5.551115123125783e-17,5.551115123125783e-17
+Young diabetic,BP_sys,145,153.5,5.551115123125783e-17,5.551115123125783e-17
+Young diabetic,BP_dia,90,91.5,5.551115123125783e-17,5.551115123125783e-17
+Coronary disease,Gender,Female,male,0.0,0.0
+Coronary disease,Age,70,43.0,0.0,0.0
+Coronary disease,Fibrinolytic therapy timing,Within 3h,00:33am,0.0,0.0
+Coronary disease,Timing of CT scan ,Early,1:06 am,0.0,0.0
+Coronary disease,IV fibrinolytic therapy is given (YES/NO),YES,no,0.0,0.0
+Coronary disease,Mechanical thrombectomy done (YES/NO),YES,no,0.0,0.0
+Coronary disease,BMI,25.0,26.397259343368173,0.0,0.0
+Coronary disease,BP_sys,150,153.5,2.7755575615628914e-17,2.7755575615628914e-17
+Coronary disease,BP_dia,93,91.5,0.0,0.0
+Young healthy,Gender,Male,male,-1.3877787807814457e-17,1.3877787807814457e-17
+Young healthy,Age,75,43.0,-1.3877787807814457e-17,1.3877787807814457e-17
+Young healthy,Known case of Hypertension (YES/NO),YES,no,-1.3877787807814457e-17,1.3877787807814457e-17
+Young healthy,known case of coronary heart disease (YES/NO),YES,no,0.0,0.0
+Young healthy,Troponin level at admission ,0.25,7.54,-1.3877787807814457e-17,1.3877787807814457e-17
+Young healthy,BMI,31.0,26.397259343368173,-1.3877787807814457e-17,1.3877787807814457e-17
+Young healthy,BP_sys,180,153.5,-1.3877787807814457e-17,1.3877787807814457e-17
+Young healthy,BP_dia,110,91.5,-1.3877787807814457e-17,1.3877787807814457e-17
+High troponin,Gender,Male,male,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,Age,80,43.0,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,known case of atrial fibrillation (YES/NO),YES,no,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,Known case of Hypertension (YES/NO),YES,no,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,known case of coronary heart disease (YES/NO),YES,no,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,Troponin level at admission ,0.12,7.54,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,"Are they on warfarin, or heparin before admission (YES/NO)",YES,no,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,INR ,2.7,0.96,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,BMI,29.5,26.397259343368173,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,BP_sys,160,153.5,2.7755575615628914e-17,2.7755575615628914e-17
+High troponin,BP_dia,95,91.5,-2.7755575615628914e-17,2.7755575615628914e-17
+Severe diabetes,Gender,Female,male,0.0,0.0
+Severe diabetes,Age,40,43.0,0.0,0.0
+Severe diabetes,known case of diabetes (YES/NO),YES,no,0.0,0.0
+Severe diabetes,HbA1c (last one before admission),11.2,6.85,0.0,0.0
+Severe diabetes,Blood glucose at admission ,300.0,7.4,0.0,0.0
+Severe diabetes,BMI,30.0,26.397259343368173,0.0,0.0
+Severe diabetes,BP_sys,125,153.5,0.0,0.0
+Severe diabetes,BP_dia,80,91.5,0.0,0.0
+Prior stroke,Gender,Male,male,2.7755575615628914e-17,2.7755575615628914e-17
+Prior stroke,Age,65,43.0,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,Personal previous history of stoke (YES/NO),YES,no,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,Personal previous history of Transient Ischemic Attack (YES/NO),NO,no,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,Known case of Hypertension (YES/NO),YES,no,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,HbA1c (last one before admission),6.2,6.85,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,Blood glucose at admission ,110.0,7.4,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,BMI,26.0,26.397259343368173,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,BP_sys,130,153.5,1.3877787807814457e-16,1.3877787807814457e-16
+Prior stroke,BP_dia,82,91.5,2.220446049250313e-16,2.220446049250313e-16
+Fibrinolysis early CT,Gender,Female,male,0.0,0.0
+Fibrinolysis early CT,Age,70,43.0,0.0,0.0
+Fibrinolysis early CT,Fibrinolytic therapy timing,Within 3h,00:33am,0.0,0.0
+Fibrinolysis early CT,Timing of CT scan ,Early,1:06 am,0.0,0.0
+Fibrinolysis early CT,IV fibrinolytic therapy is given (YES/NO),YES,no,0.0,0.0
+Fibrinolysis early CT,BMI,27.0,26.397259343368173,0.0,0.0
+Fibrinolysis early CT,BP_sys,155,153.5,0.0,0.0
+Fibrinolysis early CT,BP_dia,92,91.5,4.163336342344337e-17,4.163336342344337e-17

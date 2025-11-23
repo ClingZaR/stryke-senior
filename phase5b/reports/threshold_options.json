@@ -1,0 +1,27 @@
+{
+  "lr": {
+    "f1_optimal": 0.15619854005660744,
+    "recall_85": 0.01,
+    "net_benefit_optimal": 0.01
+  },
+  "rf": {
+    "f1_optimal": 0.17857142857142855,
+    "recall_85": 0.01,
+    "net_benefit_optimal": 0.01
+  },
+  "gb": {
+    "f1_optimal": 0.10978790072905223,
+    "recall_85": 0.01,
+    "net_benefit_optimal": 0.01
+  },
+  "xgb": {
+    "f1_optimal": 0.10622377693653107,
+    "recall_85": 0.01,
+    "net_benefit_optimal": 0.01
+  },
+  "lgb": {
+    "f1_optimal": 0.14503448678980593,
+    "recall_85": 0.01,
+    "net_benefit_optimal": 0.01
+  }
+}

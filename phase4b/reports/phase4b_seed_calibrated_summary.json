@@ -1,0 +1,5 @@
+{
+  "best_calibration": "sigmoid",
+  "mean_f1": 0.41204269414795724,
+  "mean_roc_auc": 0.7524644030668128
+}

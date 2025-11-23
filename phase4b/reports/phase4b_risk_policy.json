@@ -1,0 +1,10 @@
+{
+  "low_threshold": 0.15,
+  "high_threshold": 0.12,
+  "bands": [
+    "LOW",
+    "INDET",
+    "HIGH"
+  ],
+  "notes": "LOW: below low_threshold; INDET: between low_threshold and high_threshold; HIGH: at or above high_threshold"
+}

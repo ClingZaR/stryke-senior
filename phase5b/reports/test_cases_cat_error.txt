@@ -1,0 +1,1 @@
+C:/Go_Agent/pipelines/BuildMaster/catboost.git/catboost/libs/data/model_dataset_compatibility.cpp:93: Feature 0 from pool must be Categorical.

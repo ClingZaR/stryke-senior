@@ -1,0 +1,11 @@
+{
+  "sampler_adasyn__sampling_strategy": 0.3,
+  "sampler_adasyn__n_neighbors": 1,
+  "rf__n_estimators": 300,
+  "rf__min_samples_split": 15,
+  "rf__min_samples_leaf": 8,
+  "rf__max_features": "sqrt",
+  "rf__max_depth": 5,
+  "rf__class_weight": "balanced",
+  "rf__bootstrap": true
+}

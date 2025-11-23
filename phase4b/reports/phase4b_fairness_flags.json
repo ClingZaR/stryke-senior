@@ -1,0 +1,65 @@
+{
+  "flags": [
+    {
+      "subgroup": "Gender=Female",
+      "flags": [
+        "recall_parity"
+      ],
+      "n": 101
+    },
+    {
+      "subgroup": "Age<50",
+      "flags": [
+        "recall_parity"
+      ],
+      "n": 396
+    },
+    {
+      "subgroup": "Age50-64",
+      "flags": [
+        "recall_parity",
+        "specificity_parity",
+        "positive_rate_parity"
+      ],
+      "n": 47
+    },
+    {
+      "subgroup": "Age65-74",
+      "flags": [
+        "recall_parity",
+        "specificity_parity",
+        "positive_rate_parity"
+      ],
+      "n": 18
+    },
+    {
+      "subgroup": "Age>=75",
+      "flags": [
+        "recall_parity",
+        "specificity_parity",
+        "positive_rate_parity"
+      ],
+      "n": 8
+    },
+    {
+      "subgroup": "AFib=YES",
+      "flags": [
+        "recall_parity",
+        "precision_parity",
+        "positive_rate_parity"
+      ],
+      "n": 5
+    }
+  ],
+  "disparity_summary": {
+    "overall": {
+      "precision": 0.5,
+      "recall": 0.5818181818181818,
+      "specificity": 0.9227053140096618,
+      "f1": 0.5378151260504201,
+      "positive_rate": 0.13646055437100213
+    },
+    "parity_delta": 0.1,
+    "num_flagged_subgroups": 6
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sampler_smote__sampling_strategy": 0.2,
+  "sampler_smote__k_neighbors": 3,
+  "sampler_nearmiss__version": 1,
+  "sampler_nearmiss__sampling_strategy": 0.4,
+  "sampler_nearmiss__n_neighbors": 5,
+  "rf__n_estimators": 300,
+  "rf__min_samples_split": 5,
+  "rf__min_samples_leaf": 8,
+  "rf__max_features": "sqrt",
+  "rf__max_depth": 12,
+  "rf__class_weight": "balanced",
+  "rf__bootstrap": true
+}

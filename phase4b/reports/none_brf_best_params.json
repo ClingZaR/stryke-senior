@@ -1,0 +1,8 @@
+{
+  "brf__n_estimators": 200,
+  "brf__min_samples_split": 5,
+  "brf__min_samples_leaf": 3,
+  "brf__max_features": 0.5,
+  "brf__max_depth": 20,
+  "brf__class_weight": "balanced"
+}

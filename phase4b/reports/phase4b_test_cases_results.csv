@@ -1,0 +1,15 @@
+case_id,Unnamed: 0,CMRN,Nationality,Gender,Age,Hospital admission timing,Weight on admission,Height,Type of stroke (possibly system variable),ECG at admission,Family History of Stroke ,Personal previous history of stoke (YES/NO),Personal previous history of Transient Ischemic Attack (YES/NO),known case of atrial fibrillation (YES/NO),Known case of Hypertension (YES/NO),known case of diabetes (YES/NO),known case of coronary heart disease (YES/NO),Troponin level at admission ,oral contraceptive use in female(YES/NO),"Are they on warfarin, or heparin before admission (YES/NO)",HbA1c (last one before admission),Blood glucose at admission ,INR ,Total cholesterol (last one before admission),Cholesterol level at admission ,Fibrinolytic therapy timing,Timing of CT scan ,IV fibrinolytic therapy is given (YES/NO), Abciximab administered with IV tpa (YES/NO),Aspirin administered (YES/NO),Mechanical thrombectomy done (YES/NO),Intracranial bleeding within 24hrs (YES/NO),cardioembolic stroke (YES/NO),Cervical artery dissection (YES/NO),Thrombophilia (YES/NO),Vasculitis (YES/NO),Large-artery atherosclerosis (YES/NO),Small-vessel disease (YES/NO),Undetermined cause of stroke (YES/NO),BMI,BP_sys,BP_dia,risk_prob,predicted_label
+Low risk,,,,Female,25,,,,,,,,,NO,NO,NO,,0.01,,,5.2,95.0,1.0,,,,,,,,,,,,,,,,,22.0,110,70,0.11703812138054404,0
+Middle-aged hypertensive,,,,Male,50,,,,,,,,,NO,YES,NO,,,,,5.8,105.0,1.1,,,,,,,,,,,,,,,,,27.5,145,90,0.15568366499861594,1
+Old,,,,Male,72,,,,,,,,,YES,YES,YES,,0.08,,,8.9,210.0,1.2,,,,,,,,,,,,,,,,,29.0,150,92,0.15715481849540933,1
+Old female,,,,Female,68,,,,,,,,,,YES,NO,,,YES,,6.0,115.0,,,,,,,,,,,,,,,,,,24.0,135,85,0.12358623180078983,1
+High cholesterol,,,,Male,60,,,,,,,,,,YES,NO,,,,,,,,260.0,240.0,,,,,,,,,,,,,,,34.0,140,88,0.0958117553804199,0
+Underweight,,,,Female,45,,,,,,,,,,NO,NO,,,,,,,,,,,,,,,,,,,,,,,,17.5,95,60,0.11215403673768616,0
+Anticoagulated,,,,Male,55,,,,,,,,,,,,,,,YES,5.6,100.0,3.0,,,,,,,,,,,,,,,,,26.0,130,82,0.20260911354700695,1
+Young diabetic,,,,Male,65,,,,,,,YES,YES,,YES,,,,,,,,,,,,,,,,,,,,,,,,,28.0,145,90,0.09489742950190899,0
+Coronary disease,,,,Female,70,,,,,,,,,,,,,,,,,,,,,Within 3h,Early,YES,,,YES,,,,,,,,,25.0,150,93,0.08254110330611449,0
+Young healthy,,,,Male,75,,,,,,,,,,YES,,YES,0.25,,,,,,,,,,,,,,,,,,,,,,31.0,180,110,0.08994575214856715,0
+High troponin,,,,Male,80,,,,,,,,,YES,YES,,YES,0.12,,YES,,,2.7,,,,,,,,,,,,,,,,,29.5,160,95,0.1391837706406549,1
+Severe diabetes,,,,Female,40,,,,,,,,,,,YES,,,,,11.2,300.0,,,,,,,,,,,,,,,,,,30.0,125,80,0.11218030786143536,0
+Prior stroke,,,,Male,65,,,,,,,YES,NO,,YES,,,,,,6.2,110.0,,,,,,,,,,,,,,,,,,26.0,130,82,0.13053789092509785,1
+Fibrinolysis early CT,,,,Female,70,,,,,,,,,,,,,,,,,,,,,Within 3h,Early,YES,,,,,,,,,,,,27.0,155,92,0.08220622100095852,0

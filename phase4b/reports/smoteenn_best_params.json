@@ -1,0 +1,10 @@
+{
+  "sampler__sampling_strategy": 0.3,
+  "rf__n_estimators": 300,
+  "rf__min_samples_split": 15,
+  "rf__min_samples_leaf": 8,
+  "rf__max_features": 0.3,
+  "rf__max_depth": 12,
+  "rf__class_weight": "balanced",
+  "rf__bootstrap": true
+}
