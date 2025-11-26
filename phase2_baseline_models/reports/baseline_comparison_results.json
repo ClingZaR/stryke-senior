@@ -1,0 +1,46 @@
+{
+  "analysis_date": "2025-09-12T00:56:16.527498",
+  "dataset_info": {
+    "description": "Stroke mortality prediction dataset",
+    "target_variable": "Death outcome",
+    "note": "Class imbalance addressed with balanced class weights"
+  },
+  "model_results": {
+    "Random_Forest_Standard": {
+      "accuracy": 0.847,
+      "precision": 0.823,
+      "recall": 0.756,
+      "f1_score": 0.788,
+      "auc_score": 0.751
+    },
+    "Random_Forest_Balanced": {
+      "accuracy": 0.798,
+      "precision": 0.734,
+      "recall": 0.834,
+      "f1_score": 0.781,
+      "auc_score": 0.773
+    },
+    "Logistic_Regression_Standard": {
+      "accuracy": 0.832,
+      "precision": 0.801,
+      "recall": 0.723,
+      "f1_score": 0.76,
+      "auc_score": 0.728
+    },
+    "Logistic_Regression_Balanced": {
+      "accuracy": 0.776,
+      "precision": 0.698,
+      "recall": 0.867,
+      "f1_score": 0.773,
+      "auc_score": 0.745
+    }
+  },
+  "best_model_auc": "Random_Forest_Balanced",
+  "best_model_f1": "Random_Forest_Standard",
+  "key_findings": [
+    "Random Forest generally outperforms Logistic Regression",
+    "Balanced class weights improve recall at cost of precision",
+    "AUC scores indicate moderate predictive performance (0.7-0.8 range)",
+    "F1 scores show balanced precision-recall trade-offs"
+  ]
+}

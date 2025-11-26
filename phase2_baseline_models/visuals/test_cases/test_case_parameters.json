@@ -1,0 +1,202 @@
+{
+  "test_cases": [
+    {
+      "case_id": 1,
+      "name": "Low Risk Young Adult",
+      "description": "Young, healthy individual with no risk factors",
+      "parameters": {
+        "Age": 25,
+        "Gender": "Female",
+        "Known case of Hypertension (YES/NO)": "no",
+        "known case of coronary heart disease (YES/NO)": "no",
+        "Weight on admission": 60.0,
+        "Height": 1.65,
+        "Blood glucose at admission ": 85.0,
+        "BMI": 22.0,
+        "BP_sys": 110.0,
+        "BP_dia": 70.0,
+        "expected_risk": "Low"
+      }
+    },
+    {
+      "case_id": 2,
+      "name": "Moderate Risk Middle-Aged",
+      "description": "Middle-aged with hypertension but otherwise healthy",
+      "parameters": {
+        "Age": 45,
+        "Gender": "Male",
+        "Known case of Hypertension (YES/NO)": "yes",
+        "known case of coronary heart disease (YES/NO)": "no",
+        "Weight on admission": 80.0,
+        "Height": 1.75,
+        "Blood glucose at admission ": 110.0,
+        "BMI": 26.1,
+        "BP_sys": 145.0,
+        "BP_dia": 90.0,
+        "expected_risk": "Moderate"
+      }
+    },
+    {
+      "case_id": 3,
+      "name": "High Risk Elderly",
+      "description": "Elderly with multiple risk factors",
+      "parameters": {
+        "Age": 75,
+        "Gender": "Female",
+        "Known case of Hypertension (YES/NO)": "yes",
+        "known case of coronary heart disease (YES/NO)": "yes",
+        "Weight on admission": 70.0,
+        "Height": 1.60,
+        "Blood glucose at admission ": 180.0,
+        "BMI": 27.3,
+        "BP_sys": 165.0,
+        "BP_dia": 95.0,
+        "expected_risk": "High"
+      }
+    },
+    {
+      "case_id": 4,
+      "name": "Diabetic Patient",
+      "description": "Middle-aged diabetic with elevated glucose",
+      "parameters": {
+        "Age": 55,
+        "Gender": "Male",
+        "Known case of Hypertension (YES/NO)": "yes",
+        "known case of diabetes (YES/NO)": "yes",
+        "known case of coronary heart disease (YES/NO)": "no",
+        "Weight on admission": 85.0,
+        "Height": 1.70,
+        "Blood glucose at admission ": 250.0,
+        "BMI": 29.4,
+        "BP_sys": 150.0,
+        "BP_dia": 92.0,
+        "expected_risk": "High"
+      }
+    },
+    {
+      "case_id": 5,
+      "name": "Obese Patient",
+      "description": "Obese individual with elevated BMI",
+      "parameters": {
+        "Age": 50,
+        "Gender": "Male",
+        "Known case of Hypertension (YES/NO)": "no",
+        "known case of coronary heart disease (YES/NO)": "no",
+        "Weight on admission": 110.0,
+        "Height": 1.75,
+        "Blood glucose at admission ": 95.0,
+        "BMI": 35.9,
+        "BP_sys": 135.0,
+        "BP_dia": 85.0,
+        "expected_risk": "Moderate"
+      }
+    },
+    {
+      "case_id": 6,
+      "name": "Heart Disease Patient",
+      "description": "Patient with existing heart disease",
+      "parameters": {
+        "Age": 62,
+        "Gender": "Female",
+        "Known case of Hypertension (YES/NO)": "yes",
+        "known case of coronary heart disease (YES/NO)": "yes",
+        "Weight on admission": 75.0,
+        "Height": 1.65,
+        "Blood glucose at admission ": 140.0,
+        "BMI": 27.6,
+        "BP_sys": 155.0,
+        "BP_dia": 88.0,
+        "expected_risk": "High"
+      }
+    },
+    {
+      "case_id": 7,
+      "name": "Elderly with Hypertension",
+      "description": "Elderly patient with hypertension",
+      "parameters": {
+        "Age": 68,
+        "Gender": "Male",
+        "Known case of Hypertension (YES/NO)": "yes",
+        "known case of coronary heart disease (YES/NO)": "no",
+        "Weight on admission": 72.0,
+        "Height": 1.72,
+        "Blood glucose at admission ": 125.0,
+        "BMI": 24.3,
+        "BP_sys": 140.0,
+        "BP_dia": 85.0,
+        "expected_risk": "Moderate"
+      }
+    },
+    {
+      "case_id": 8,
+      "name": "Young Professional",
+      "description": "Young professional with minimal risk factors",
+      "parameters": {
+        "Age": 32,
+        "Gender": "Female",
+        "Known case of Hypertension (YES/NO)": "no",
+        "known case of coronary heart disease (YES/NO)": "no",
+        "Weight on admission": 65.0,
+        "Height": 1.68,
+        "Blood glucose at admission ": 105.0,
+        "BMI": 23.0,
+        "BP_sys": 120.0,
+        "BP_dia": 78.0,
+        "expected_risk": "Low"
+      }
+    },
+    {
+      "case_id": 9,
+      "name": "Multiple Comorbidities",
+      "description": "Patient with multiple health conditions",
+      "parameters": {
+        "Age": 70,
+        "Gender": "Male",
+        "Known case of Hypertension (YES/NO)": "yes",
+        "known case of diabetes (YES/NO)": "yes",
+        "known case of coronary heart disease (YES/NO)": "yes",
+        "Weight on admission": 88.0,
+        "Height": 1.70,
+        "Blood glucose at admission ": 200.0,
+        "BMI": 30.4,
+        "BP_sys": 170.0,
+        "BP_dia": 98.0,
+        "expected_risk": "High"
+      }
+    },
+    {
+      "case_id": 10,
+      "name": "Healthy Senior",
+      "description": "Healthy senior with minimal risk factors",
+      "parameters": {
+        "Age": 65,
+        "Gender": "Female",
+        "Known case of Hypertension (YES/NO)": "no",
+        "known case of coronary heart disease (YES/NO)": "no",
+        "Weight on admission": 62.0,
+        "Height": 1.62,
+        "Blood glucose at admission ": 90.0,
+        "BMI": 23.6,
+        "BP_sys": 125.0,
+        "BP_dia": 75.0,
+        "expected_risk": "Low"
+      }
+    }
+  ],
+  "metadata": {
+    "total_cases": 10,
+    "created_date": "2024-01-11",
+    "description": "Test case parameters for Phase 2 baseline model evaluation",
+    "risk_categories": {
+      "Low": 4,
+      "Moderate": 3,
+      "High": 3
+    },
+    "parameter_types": {
+      "demographic": ["Age", "Gender"],
+      "anthropometric": ["Weight on admission", "Height", "BMI"],
+      "clinical_conditions": ["Known case of Hypertension (YES/NO)", "known case of diabetes (YES/NO)", "known case of coronary heart disease (YES/NO)"],
+      "vital_signs": ["BP_sys", "BP_dia", "Blood glucose at admission "]
+    }
+  }
+}

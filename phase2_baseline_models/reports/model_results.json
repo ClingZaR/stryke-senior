@@ -1,0 +1,10 @@
+{
+  "model_type": "Random Forest",
+  "auc_score": 0.75,
+  "accuracy": 0.85,
+  "precision": 0.82,
+  "recall": 0.78,
+  "f1_score": 0.8,
+  "test_samples": 200,
+  "feature_count": 10
+}

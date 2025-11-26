@@ -1,0 +1,302 @@
+{
+  "analysis_date": "2025-09-12T13:24:57.190932",
+  "test_cases": [
+    {
+      "name": "Low Risk Young Adult",
+      "description": "Young, healthy individual with no risk factors",
+      "Age": 25,
+      "Gender": "Female",
+      "Known case of Hypertension (YES/NO)": "no",
+      "known case of coronary heart disease (YES/NO)": "no",
+      "Weight on admission": 60.0,
+      "Height": 1.65,
+      "Blood glucose at admission ": 85.0,
+      "BMI": 22.0,
+      "BP_sys": 110.0,
+      "BP_dia": 70.0,
+      "expected_risk": "Low"
+    },
+    {
+      "name": "Moderate Risk Middle-Aged",
+      "description": "Middle-aged with hypertension but otherwise healthy",
+      "Age": 45,
+      "Gender": "Male",
+      "Known case of Hypertension (YES/NO)": "yes",
+      "known case of coronary heart disease (YES/NO)": "no",
+      "Weight on admission": 80.0,
+      "Height": 1.75,
+      "Blood glucose at admission ": 110.0,
+      "BMI": 26.1,
+      "BP_sys": 145.0,
+      "BP_dia": 90.0,
+      "expected_risk": "Moderate"
+    },
+    {
+      "name": "High Risk Elderly",
+      "description": "Elderly with multiple risk factors",
+      "Age": 75,
+      "Gender": "Female",
+      "Known case of Hypertension (YES/NO)": "yes",
+      "known case of coronary heart disease (YES/NO)": "yes",
+      "Weight on admission": 70.0,
+      "Height": 1.6,
+      "Blood glucose at admission ": 180.0,
+      "BMI": 27.3,
+      "BP_sys": 165.0,
+      "BP_dia": 95.0,
+      "expected_risk": "High"
+    },
+    {
+      "name": "Diabetic Patient",
+      "description": "Middle-aged diabetic with elevated glucose",
+      "Age": 55,
+      "Gender": "Male",
+      "Known case of Hypertension (YES/NO)": "yes",
+      "known case of diabetes (YES/NO)": "yes",
+      "known case of coronary heart disease (YES/NO)": "no",
+      "Weight on admission": 85.0,
+      "Height": 1.7,
+      "Blood glucose at admission ": 250.0,
+      "BMI": 29.4,
+      "BP_sys": 150.0,
+      "BP_dia": 92.0,
+      "expected_risk": "High"
+    },
+    {
+      "name": "Obese Patient",
+      "description": "Obese individual with elevated BMI",
+      "Age": 50,
+      "Gender": "Male",
+      "Known case of Hypertension (YES/NO)": "no",
+      "known case of coronary heart disease (YES/NO)": "no",
+      "Weight on admission": 110.0,
+      "Height": 1.75,
+      "Blood glucose at admission ": 95.0,
+      "BMI": 35.9,
+      "BP_sys": 135.0,
+      "BP_dia": 85.0,
+      "expected_risk": "Moderate"
+    },
+    {
+      "name": "Heart Disease Patient",
+      "description": "Patient with existing heart disease",
+      "Age": 62,
+      "Gender": "Female",
+      "Known case of Hypertension (YES/NO)": "yes",
+      "known case of coronary heart disease (YES/NO)": "yes",
+      "Weight on admission": 75.0,
+      "Height": 1.65,
+      "Blood glucose at admission ": 140.0,
+      "BMI": 27.6,
+      "BP_sys": 155.0,
+      "BP_dia": 88.0,
+      "expected_risk": "High"
+    },
+    {
+      "name": "Elderly with Hypertension",
+      "description": "Elderly patient with hypertension",
+      "Age": 68,
+      "Gender": "Male",
+      "Known case of Hypertension (YES/NO)": "yes",
+      "known case of coronary heart disease (YES/NO)": "no",
+      "Weight on admission": 72.0,
+      "Height": 1.72,
+      "Blood glucose at admission ": 125.0,
+      "BMI": 24.3,
+      "BP_sys": 140.0,
+      "BP_dia": 85.0,
+      "expected_risk": "Moderate"
+    },
+    {
+      "name": "Young Professional",
+      "description": "Young professional with minimal risk factors",
+      "Age": 32,
+      "Gender": "Female",
+      "Known case of Hypertension (YES/NO)": "no",
+      "known case of coronary heart disease (YES/NO)": "no",
+      "Weight on admission": 65.0,
+      "Height": 1.68,
+      "Blood glucose at admission ": 105.0,
+      "BMI": 23.0,
+      "BP_sys": 120.0,
+      "BP_dia": 78.0,
+      "expected_risk": "Low"
+    },
+    {
+      "name": "Multiple Comorbidities",
+      "description": "Patient with multiple health conditions",
+      "Age": 70,
+      "Gender": "Male",
+      "Known case of Hypertension (YES/NO)": "yes",
+      "known case of diabetes (YES/NO)": "yes",
+      "known case of coronary heart disease (YES/NO)": "yes",
+      "Weight on admission": 88.0,
+      "Height": 1.7,
+      "Blood glucose at admission ": 200.0,
+      "BMI": 30.4,
+      "BP_sys": 170.0,
+      "BP_dia": 98.0,
+      "expected_risk": "High"
+    },
+    {
+      "name": "Healthy Senior",
+      "description": "Healthy senior with minimal risk factors",
+      "Age": 65,
+      "Gender": "Female",
+      "Known case of Hypertension (YES/NO)": "no",
+      "known case of coronary heart disease (YES/NO)": "no",
+      "Weight on admission": 62.0,
+      "Height": 1.62,
+      "Blood glucose at admission ": 90.0,
+      "BMI": 23.6,
+      "BP_sys": 125.0,
+      "BP_dia": 75.0,
+      "expected_risk": "Low"
+    }
+  ],
+  "model_predictions": {
+    "Random_Forest_Standard": {
+      "predictions": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "probabilities": [
+        0.06630885320540565,
+        0.6598411240690812,
+        0.9853917094581398,
+        0.9683998901515147,
+        0.38043573762207,
+        0.9544943828726047,
+        0.6156035374432957,
+        0.18297921117407656,
+        0.99,
+        0.09593099532017668
+      ]
+    },
+    "Random_Forest_Balanced": {
+      "predictions": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "probabilities": [
+        0.082149244349535,
+        0.9046595775161553,
+        0.99,
+        0.99,
+        0.5332414593855144,
+        0.9389384078509072,
+        0.7587968838208395,
+        0.1045588851075361,
+        0.99,
+        0.39926668345475275
+      ]
+    },
+    "Logistic_Regression_Standard": {
+      "predictions": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "probabilities": [
+        0.15645309682541114,
+        0.4840665057386652,
+        0.9814783775646183,
+        0.9458585966612514,
+        0.22234213081798027,
+        0.9042560569100417,
+        0.6014883599956846,
+        0.026832239062032984,
+        0.99,
+        0.15475044517500955
+      ]
+    },
+    "Logistic_Regression_Balanced": {
+      "predictions": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "probabilities": [
+        0.06607546748226188,
+        0.7776497316797585,
+        0.99,
+        0.9823150210828594,
+        0.4034675518555751,
+        0.93407073136307,
+        0.5453491536234785,
+        0.10348787328951164,
+        0.99,
+        0.1756603894014048
+      ]
+    }
+  },
+  "summary_statistics": {
+    "Random_Forest_Standard": {
+      "avg_risk_probability": 0.5899385441316365,
+      "max_risk_probability": 0.99,
+      "min_risk_probability": 0.06630885320540565,
+      "high_risk_cases": 6,
+      "low_risk_cases": 4
+    },
+    "Random_Forest_Balanced": {
+      "avg_risk_probability": 0.6691611141485241,
+      "max_risk_probability": 0.99,
+      "min_risk_probability": 0.082149244349535,
+      "high_risk_cases": 7,
+      "low_risk_cases": 3
+    },
+    "Logistic_Regression_Standard": {
+      "avg_risk_probability": 0.5467525808750695,
+      "max_risk_probability": 0.99,
+      "min_risk_probability": 0.026832239062032984,
+      "high_risk_cases": 5,
+      "low_risk_cases": 5
+    },
+    "Logistic_Regression_Balanced": {
+      "avg_risk_probability": 0.596807591977792,
+      "max_risk_probability": 0.99,
+      "min_risk_probability": 0.06607546748226188,
+      "high_risk_cases": 6,
+      "low_risk_cases": 4
+    }
+  },
+  "model_performance_on_test_cases": {},
+  "model_agreement": {
+    "Random_Forest_Standard_vs_Random_Forest_Balanced": 0.9,
+    "Random_Forest_Standard_vs_Logistic_Regression_Standard": 0.9,
+    "Random_Forest_Standard_vs_Logistic_Regression_Balanced": 1.0,
+    "Random_Forest_Balanced_vs_Logistic_Regression_Standard": 0.8,
+    "Random_Forest_Balanced_vs_Logistic_Regression_Balanced": 0.9,
+    "Logistic_Regression_Standard_vs_Logistic_Regression_Balanced": 0.9
+  }
+}
